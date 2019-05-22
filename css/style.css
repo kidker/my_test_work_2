@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.bg-red {
+    background: #eb3323;
+}
+
+.bg-blue {
+    background: #2569f6;
+}
+
+.bg-deep-blue {
+    background: #2b21f5;
+}
+
+.bg-violet {
+    background: #bd34f6;
+}
+
+.bg-yellow {
+    background: #f19c38;
+}
+
+.bg-pink {
+    background: #ec3697;
+}
+
+.bg-green {
+    background: #71fa7a;
+}
+
+.wrapper {
+    background: #1f1e1c;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper__table {
+    border-top: 5px solid #313230;
+    border-left: 5px solid #313230;
+    border-right: 5px solid #313230;
+    border-radius: 5px 5px 0 0;
+    width: 660px;
+    height: 500px;
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    border-radius: 0 20px 0 0;
+    margin-right: 10px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.card.big {
+    height: 200px;
+    width: 200px;
+}
+
+.card.small {
+    height: 90px;
+    width: 90px;
+}
+
+/*big*/
+.big .card__title {
+    color: white;
+    font-size: 5rem;
+}
+
+.big .card__name {
+    font-size: 19px;
+    line-height: 19px;
+    opacity: 0.7;
+}
+
+.big .card__number {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+    color: black;
+}
+
+.big .card__mass {
+
+}
+
+/*small*/
+.small .card__title {
+    color: white;
+    font-size: 2rem;
+}
+
+.small .card__name {
+    font-size: 10px;
+    line-height: 10px;
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+.small .card__number {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    opacity: 0.5;
+    color: black;
+    font-size: 20px;
+}
+
+.small .card__mass {
+    font-size: 10px;
+    opacity: 0.5;
+    color: black;
+}
